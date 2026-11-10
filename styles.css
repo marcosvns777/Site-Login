@@ -1,0 +1,97 @@
+body {
+    background-image: url('fundo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.i1 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+    color: rgb(130, 168, 250);
+    margin: 0;
+}
+
+.conta {
+    background-color: rgba(255, 255, 255, 0.623);
+    width: 370px;
+    min-height: 400px;
+    margin: 200px auto;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.titulo {
+    color: rgb(58, 0, 58);
+    text-align: center;
+    font-size: 50px;
+    margin: 10PX;
+    
+}
+
+.conta {
+    background-color: white;
+    width: 350px;
+    padding: 25px;
+    margin: 30px auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 25px;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botao {
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    padding: 16px;
+    background: linear-gradient(135deg, #3867e8, #7148d9);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(56, 103, 232, 0.35);
+    transition: all 0.3s ease;
+}
+
+.botao:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(56, 103, 232, 0.5);
+    background: linear-gradient(135deg, #2854cc, #5934bd);
+}
